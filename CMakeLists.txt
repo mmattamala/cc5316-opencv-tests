@@ -119,24 +119,24 @@ include_directories(
 )
 
 ## Declare a C++ library
-# add_library(opencv_test
+# add_library(cc5316_opencv_test
 #   src/${PROJECT_NAME}/opencv_test.cpp
 # )
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
 ## either from message generation or dynamic reconfigure
-# add_dependencies(opencv_test ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(cc5316_opencv_test ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-# add_executable(opencv_test_node src/opencv_test_node.cpp)
+# add_executable(cc5316_opencv_test_node src/cc5316_opencv_test_node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-# add_dependencies(opencv_test_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+# add_dependencies(cc5316_opencv_test_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(opencv_test_node
+# target_link_libraries(cc5316_opencv_test_node
 #   ${catkin_LIBRARIES}
 # )
 
@@ -155,7 +155,7 @@ include_directories(
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS opencv_test opencv_test_node
+# install(TARGETS cc5316_opencv_test cc5316_opencv_test_node
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -180,7 +180,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_opencv_test.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_cc5316_opencv_test.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
