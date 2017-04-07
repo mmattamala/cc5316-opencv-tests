@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>opencv_test</name>
+  <name>cc5316_opencv_test</name>
   <version>0.0.0</version>
   <description>The opencv_test package</description>
 
