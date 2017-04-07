@@ -27,7 +27,7 @@ class image_handler:
     except CvBridgeError as e:
       print(e)
 
-    # re-publicamos la imagen al tópico /image_republished
+    # re-publicamos la imagen al topico /image_republished
     try:
       self.image_pub.publish(self.bridge.cv2_to_imgmsg(cv_image, "bgr8"))
     except CvBridgeError as e:
