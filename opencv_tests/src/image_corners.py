@@ -46,7 +46,7 @@ class image_handler:
     # k - Harris detector free parameter in the equation.
     img_harris = np.copy(cv_image)
 
-    corners_harris = cv2.cornerHarris(gray, 2, 3, 0.04)
+    corners_harris = cv2.cornerHarris(gray, 2, 3, 0.004)
     corners_harris = cv2.dilate(corners_harris, None)
     img_harris[corners_harris>0.01*corners_harris.max()]=[0,0,255]
 

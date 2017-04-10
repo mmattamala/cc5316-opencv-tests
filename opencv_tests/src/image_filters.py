@@ -31,18 +31,18 @@ class image_handler:
     # obtener dimensiones de la imagen
     (rows, cols, channels) = cv_image.shape
 
-    kernel = 1.0/9 * np.array([[1,1,1],
-                       [1,1,1],
-                       [1,1,1]])
+    #kernel = 1.0/9 * np.array([[1,1,1],
+    #                   [1,1,1],
+    #                   [1,1,1]])
 
-    kernel = 1.0 / 36 * np.ones([6,6])
+    #kernel = 1.0 / 36 * np.ones([6,6])
 
-    kernel = np.array([[1,0,-1],
-                       [1,0,-1],
-                       [1,0,-1]])
-    kernel = np.array([[-1,-1,-1],
-                       [0,0,0],
-                       [1,1,1]])
+    #kernel = np.array([[1,0,-1],
+    #                   [1,0,-1],
+    #                   [1,0,-1]])
+    #kernel = np.array([[-1,-1,-1],
+    #                   [0,0,0],
+    #                   [1,1,1]])
 
     kernel = np.array([[0,1,0],
                        [1,-4,1],
